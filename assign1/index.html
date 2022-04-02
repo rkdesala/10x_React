@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./blue.css" />
+    <link rel="stylesheet" href="./yellow.css" />
+    <link rel="stylesheet" href="red.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="yellow_container">
+        <div id="yellow_1"></div>
+        <div id="yellow_2"></div>
+      </div>
+      <div class="red_container">
+        <div id="red_1"><p id="display_width_height"></p></div>
+      </div>
+      <div class="blue_container">
+        <div id="blue_1"></div>
+        <div id="blue_1"></div>
+        <div id="blue_1"></div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function disp_w_h() {
+      var w = window.innerWidth;
+      var h = window.innerHeight;
+      document.querySelector("#display_width_height").innerHTML = w + "*" + h;
+      console.log(w, h);
+    }
+    window.onresize = disp_w_h;
+  </script>
+</html>
