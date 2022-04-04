@@ -1,0 +1,27 @@
+.order-name {
+  display: flex;
+  flex-direction: row;
+  background: rgb(243, 241, 241);
+  height: 15vh;
+  width: 100%;
+  margin: 0 10px 20px 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px rgb(130, 127, 127) solid;
+  border-radius: 15px;
+}
+#order-name-elements {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+#order_name_text_style {
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#order_name_text_style_datails {
+  color: rgb(125, 119, 119);
+  font-family: sans-serif;
+  margin: 0pxx;
+}

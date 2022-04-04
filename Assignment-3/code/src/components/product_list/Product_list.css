@@ -1,0 +1,64 @@
+.product-list {
+  display: flex;
+  flex-direction: row;
+  height: 25vh;
+  width: 100%;
+  margin: 0 10px 20px 10px;
+  align-items: center;
+  justify-content: flex-start;
+  border: 3px rgb(130, 127, 127) solid;
+  border-radius: 15px;
+}
+.check_box {
+  align-items: center;
+  width: 60px;
+  height: auto;
+  flex-grow: 0.5;
+}
+.profimage {
+  width: 120px;
+  height: auto;
+  flex-grow: 0.5;
+}
+#product_list_image {
+  width: 120px;
+  float: left;
+  border-radius: 10px;
+}
+
+#product_list_checkbox {
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  border: 10px yellow solid;
+  color: yellow;
+  margin: 10px;
+}
+.product_list_info {
+  width: auto;
+  height: 15vh;
+  flex-grow: 1;
+}
+#product_list_text_style {
+  width: auto;
+  height: auto;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  float: inline-start;
+}
+#producr_list_style_datails {
+  color: rgb(125, 119, 119);
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+#product_list_mark {
+  float: right;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgb(150, 149, 149);
+}
+.product_list_info_mark {
+  flex-grow: 5;
+}
