@@ -1,0 +1,22 @@
+.customer-info {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  height: 18vh;
+  width: 100%;
+  margin: 0 10px 20px 10px;
+  justify-content: center;
+  border: 3px rgb(130, 127, 127) solid;
+  border-radius: 15px;
+}
+#customer_info_text_style {
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 5px;
+}
+#customer_info_text_style_datails {
+  color: rgb(125, 119, 119);
+  font-family: sans-serif;
+  margin: 0 0 0 10px;
+}
