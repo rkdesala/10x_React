@@ -1,0 +1,28 @@
+.main_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 10vh;
+  border: 1px gray solid;
+  border-radius: 15px;
+  margin: auto;
+}
+#header_heading {
+  font-size: 25px;
+  color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 100px;
+}
+#header_camera {
+  font-size: 25px;
+  margin-right: 100px;
+}
+#header_heading {
+  cursor: pointer;
+}
+#header_camera:hover {
+  cursor: pointer;
+}
