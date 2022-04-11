@@ -1,0 +1,42 @@
+.main_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 10vh;
+  border: 1px #f54153 solid;
+  border-radius: 15px;
+  margin: auto;
+  background: white;
+  z-index: 1;
+  background-attachment: fixed;
+}
+#header_heading {
+  font-size: 25px;
+  color: #f54153;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 100px;
+}
+#header_camera {
+  font-size: 25px;
+  margin-right: 100px;
+}
+#header_heading {
+  cursor: pointer;
+}
+#header_camera:hover {
+  cursor: pointer;
+}
+#back_to_home {
+  width: auto;
+  height: auto;
+  background: #f54153;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}

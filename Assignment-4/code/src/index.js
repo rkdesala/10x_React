@@ -1,18 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Postview from './Postview';
-import reportWebVitals from './reportWebVitals';
-
-
-
-
+import React from "react";
+import ReactDOM from "react-dom";
+import Postview from "./Postview";
+import "./Postview.css";
+import reportWebVitals from "./reportWebVitals";
+import Landingpage from "./Landingpage";
+import "./Landingpage.css";
+import Routing from "./Routing";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Postview />
+    <Routing />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
