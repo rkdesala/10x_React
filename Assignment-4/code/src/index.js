@@ -3,10 +3,13 @@ import ReactDOM from "react-dom";
 import Postview from "./Postview";
 import "./Postview.css";
 import reportWebVitals from "./reportWebVitals";
+import Landingpage from "./Landingpage";
+import "./Landingpage.css";
+import Routing from "./Routing";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Postview />
+    <Routing />
   </React.StrictMode>,
   document.getElementById("root")
 );

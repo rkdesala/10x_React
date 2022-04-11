@@ -24,7 +24,6 @@ class Posts extends React.Component {
             <p id="like_emoji">🤍</p>
             <span id="message_emoji">💬</span>
           </div>
-
           <p id="time_display">{this.props.date}</p>
         </div>
         <div class="likes">
